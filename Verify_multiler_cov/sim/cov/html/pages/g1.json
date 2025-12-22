@@ -1,0 +1,7 @@
+var g_data = {
+g798:[{dummy:0},
+{name:'cov_inst',f:1,type:1,id:803,tb:'75',h:'74',m:'1',hp:'98.66%',cov:['99.50%','G'],g:'100.00%',gp:['99.50%','G'],opts:[[],['merge_instance','auto(true)']],parent:'798'},
+{name:'\\/mul_pkg::mul_coverage::cov_inst ',f:1,type:2,id:808,tb:'75',h:'74',m:'1',hp:'98.66%',cov:['99.50%','G'],g:'100.00%',gp:['99.50%','G'],opts:[[],['per_instance','true']],cvg:'cov_inst',parent:'803'}],
+dummyEnd:0
+};
+processCovergroupsData(g_data);

@@ -1,0 +1,11 @@
+..//mul.v
+../tb/mul_if.sv
+../tb/top.sv
+../uvc/env/../seq/mul_item.sv
+../uvc/env/../seq/mul_seq.sv
+../uvc/env/../tests/base_test.sv
+../uvc/env/./mul_coverage.sv
+../uvc/env/./mul_driver.sv
+../uvc/env/./mul_monitor.sv
+../uvc/env/./mul_scoreboard.sv
+../uvc/env/mul_pkg.sv

@@ -1,18 +1,18 @@
 # do run.do
 # --- Compiling RTL ---
 # QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 08:30:35 on Dec 08,2025
+# Start time: 18:12:48 on Dec 17,2025
 # vlog -sv ../tb/mul_if.sv ../mul.v 
 # -- Compiling interface mul_if
 # -- Compiling module mul
 # 
 # Top level modules:
 # 	mul
-# End time: 08:30:35 on Dec 08,2025, Elapsed time: 0:00:00
+# End time: 18:12:48 on Dec 17,2025, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # --- Compiling UVC Package ---
 # QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 08:30:35 on Dec 08,2025
+# Start time: 18:12:48 on Dec 17,2025
 # vlog -sv "+incdir+../uvc/env" "+incdir+../uvc/seq" "+incdir+../uvc/tests" ../uvc/env/mul_pkg.sv 
 # -- Compiling package mul_pkg
 # -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
@@ -20,21 +20,21 @@
 # 
 # Top level modules:
 # 	--none--
-# End time: 08:30:37 on Dec 08,2025, Elapsed time: 0:00:02
+# End time: 18:12:53 on Dec 17,2025, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 0
 # --- Compiling Tests Package ---
 # QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 08:30:37 on Dec 08,2025
+# Start time: 18:12:53 on Dec 17,2025
 # vlog -sv "+incdir+../uvc/env" "+incdir+../uvc/seq" "+incdir+../uvc/tests" ../uvc/tests/base_test.sv ../uvc/tests/mul_test.sv 
 # ** Note: (vlog-2286) ../uvc/tests/base_test.sv(1): Using implicit +incdir+D:/questasim_b_install/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 # 
 # Top level modules:
 # 	--none--
-# End time: 08:30:37 on Dec 08,2025, Elapsed time: 0:00:00
+# End time: 18:12:54 on Dec 17,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # --- Compiling Top Module ---
 # QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
-# Start time: 08:30:37 on Dec 08,2025
+# Start time: 18:12:55 on Dec 17,2025
 # vlog -sv ../tb/top.sv 
 # ** Note: (vlog-2286) ../tb/top.sv(3): Using implicit +incdir+D:/questasim_b_install/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
 # -- Compiling package top_sv_unit
@@ -44,12 +44,12 @@
 # 
 # Top level modules:
 # 	top
-# End time: 08:30:38 on Dec 08,2025, Elapsed time: 0:00:01
+# End time: 18:12:56 on Dec 17,2025, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # --- Compilation successful! ---
 # --- Starting Simulation ---
 # vsim top "+UVM_TESTNAME=mul_test" 
-# Start time: 08:30:39 on Dec 08,2025
+# Start time: 18:13:00 on Dec 17,2025
 # ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim-64
 # //  Version 10.7c win64 Aug 18 2018
@@ -161,7 +161,7 @@
 # -----------------------------------------------------------------
 # UVM_INFO ../uvc/env/../seq/mul_seq.sv(24) @ 195000: uvm_test_top.env.agent.seqr@@seq [SEQ] mul_seq complete
 # UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 195000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
-# UVM_INFO ../uvc/env/../tests/base_test.sv(49) @ 195000: uvm_test_top [mul_test] ** TEST PASSED **
+# UVM_INFO ../uvc/env/../tests/base_test.sv(50) @ 195000: uvm_test_top [mul_test] ** TEST PASSED **
 # 
 # --- UVM Report Summary ---
 # 
@@ -179,6 +179,6 @@
 # [UVMTOP]     1
 # [mul_test]     1
 # ** Note: $finish    : D:/questasim_b_install/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
-#    Time: 195 ns  Iteration: 61  Instance: /top
-# End time: 08:30:48 on Dec 08,2025, Elapsed time: 0:00:09
+#    Time: 195 ns  Iteration: 62  Instance: /top
+# End time: 18:13:34 on Dec 17,2025, Elapsed time: 0:00:34
 # Errors: 0, Warnings: 0

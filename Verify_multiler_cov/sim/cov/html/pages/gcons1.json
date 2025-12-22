@@ -1,0 +1,4 @@
+var g_db_data = [
+{dummy:0},
+{name:'cov_inst',f:1,type:6,id:803,tb:'75',h:'74',m:'1',hp:'98.66%',cov:['99.50%','G'],g:'100.00%',gp:['99.50%','G'],opts:[[],['merge_instance','auto(true)']],hdlPath:'/mul_pkg/mul_coverage',parent:'798'}];
+processConsCovergroupsData(g_db_data);

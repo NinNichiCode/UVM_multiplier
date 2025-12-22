@@ -1,0 +1,12 @@
+var g_data = {'dummy':null,
+'2':'..//mul.v',
+'11':'../tb/mul_if.sv',
+'1':'../tb/top.sv',
+'3':'../uvc/env/../seq/mul_item.sv',
+'8':'../uvc/env/../seq/mul_seq.sv',
+'9':'../uvc/env/../tests/base_test.sv',
+'7':'../uvc/env/./mul_coverage.sv',
+'4':'../uvc/env/./mul_driver.sv',
+'5':'../uvc/env/./mul_monitor.sv',
+'6':'../uvc/env/./mul_scoreboard.sv',
+'10':'../uvc/env/mul_pkg.sv'};
