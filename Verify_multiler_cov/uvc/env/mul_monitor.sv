@@ -37,20 +37,19 @@ class mul_monitor extends uvm_monitor;
     //  mul_item trans_sampled; 
 
      forever begin 
-       // 1. Đợi cạnh clock tiếp theo
+  
        @(vif.monitor_cb); 
 
-       // 2. Kiểm tra xem tín hiệu có valid không (nếu cần)
-       // Ở đây ta cứ lấy mẫu liên tục
+    
        
       //  trans_sampled = mul_item::type_id::create("trans_sampled");
        
-       // Lấy mẫu qua clocking block (Input Skew - lấy giá trị ổn định trước cạnh clock)
+   
        transaction.a = vif.monitor_cb.a;
        transaction.b = vif.monitor_cb.b;
        transaction.y = vif.monitor_cb.y;
        
-       // 3. Gửi đi Scoreboard
+
        item_send_port.write(transaction);
      end
     endtask
